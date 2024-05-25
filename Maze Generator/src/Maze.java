@@ -228,7 +228,6 @@ class Maze {
         String movement = "";
         int x;
         int y;
-        int timesStuck = 0;
 
         // Randomly pick a set of odd coordinates within the bounds of the maze
         x = rng.nextInt(0, this.width - 1);
