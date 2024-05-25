@@ -91,6 +91,7 @@ class Maze {
         for (int i = 0; i < this.length; i += 1) {
             System.out.println(this.map.get(i));
         }
+        System.out.println();
     }
 
     // Checks if there are unmapped tiles in the maze
